@@ -102,10 +102,12 @@
 .col4 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card {
-    width: calc(100% / 3);
+    width: calc(90% / 3);
+    margin: 2rem 0.5rem;
 }
 
 .card_image {
