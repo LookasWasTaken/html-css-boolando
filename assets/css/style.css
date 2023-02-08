@@ -5,6 +5,8 @@
     font-family: var(--font-boolando);
 }
 
+/* /region common */
+
 :root {
     --main-orange: #ff6900;
     --black: #1a1a1a;
@@ -12,4 +14,70 @@
     --smoke-white: #e9e7e5;
     --font-boolando: "Helvetica Now", Helvetica, Arial, sans-serif;
 }
+
+/* /endregion common */
+
+/* /Region link */
+
+.headlink{
+    padding: 0.5rem;
+    display: inline;
+}
+
+.headlink a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.fa-regular, .fa-solid{
+    color: var(--white);
+    padding: 0.5rem;
+}
+
+/* /endregion link */
+
+/* /region header */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--main-orange);
+    height: 80px;
+    box-shadow: 0px 5px 10px 1px #888888;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.headlist{
+    width: calc(100 / 3 );
+}
+
+.logo{
+    width: calc(100 / 3 );
+}
+
+.persona_area{
+    width: calc(100 / 3 );
+}
+
+
+/* /endregion header */
+
+
+
+/* /region main */
+
+
+
+/* /endregion main */
+
+
+
+/* /region footer */
+
+
+
+/* /endregion footer */
 
