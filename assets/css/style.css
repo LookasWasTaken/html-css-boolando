@@ -67,6 +67,7 @@
     top: 0;
     bottom: 10rem;
     width: 100%;
+    z-index: 1;
 }
 
 .headlist {
@@ -98,29 +99,39 @@
     margin: auto;
 }
 
-.col4 {}
-
-.card {
-    width: 33%;
-    position: relative;
+.col4 {
+    display: flex;
+    justify-content: space-between;
 }
 
-.card_image {}
+.card {
+    width: calc(100% / 3);
+}
+
+.card_image {
+    position: relative;
+
+}
+
+.card_image img{
+    width: 100%;
+}
+
+.box{
+    position: absolute;
+    bottom: 10%;
+    left: 1%;
+
+}
 
 
 .percentage {
-    position: absolute;
-    top: 75%;
-    left: 0;
     padding: 0.2rem;
     background-color: var(--discount-price);
     color: var(--white);
 }
 
 .sostenibility {
-    position: absolute;
-    top: 75%;
-    left: 4%;
     padding: 0.2rem;
     background-color: var(--green-eco);
     color: var(--white);
@@ -129,7 +140,7 @@
 .like {
     position: absolute;
     top: 1%;
-    left: 32.5%;
+    right: 0%;
     padding: 0.5rem 0.7rem;
     font-size: 25px;
     background-color: var(--white);
