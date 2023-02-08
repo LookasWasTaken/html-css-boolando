@@ -19,27 +19,29 @@
 
 /* /Region link */
 
-.headlink{
+.headlink {
     padding: 0.5rem;
     display: inline;
 }
 
-.headlink a{
+.headlink a {
     text-decoration: none;
     color: var(--white);
 }
 
-.footlist_item{
+.footlist_item {
     display: inline;
 }
 
-.footlink{
+.footlink {
     text-decoration: none;
     color: var(--white);
     margin-right: 0.5rem;
 }
 
-.fa-regular, .fa-solid, .fa-brands{
+.fa-regular,
+.fa-solid,
+.fa-brands {
     color: var(--white);
     padding-left: 0.5rem;
 }
@@ -48,12 +50,10 @@
 
 /* /region header */
 
-.outer_container{
-
-}
+.outer_container {}
 
 
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -63,20 +63,20 @@
     align-items: center;
     position: fixed;
     top: 0;
-    bottom: 20rem;
+    bottom: 0;
     width: 100%;
 }
 
-.headlist{
-    width: calc(100 / 3 );
+.headlist {
+    width: calc(100 / 3);
 }
 
-.logo{
-    width: calc(100 / 3 );
+.logo {
+    width: calc(100 / 3);
 }
 
-.persona_area{
-    width: calc(100 / 3 );
+.persona_area {
+    width: calc(100 / 3);
 }
 
 
@@ -86,75 +86,83 @@
 
 /* /region main */
 
-#app-main{
+#app-main {
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
 
-.inner_container{
-
-}
-
-.row{
+.row {
     width: 70%;
     margin: auto;
 }
 
-.item_details{
+.card {
+    width: calc(100 / 3);
+    position: ;
+}
+
+.card_image {
+    width: 33%;
+    position: relative;
+}
+
+
+.percentage {
+    position: absolute;
+    top: 75%;
+    left: 0;
+}
+
+.sostenibility {
+    position: absolute;
+    top: 75%;
+    left: 4%;
+}
+
+.like {
+    position: absolute;
+    top: 1%;
+    left: 32.5%;
+}
+
+.card_details {}
+
+.item_details {
     list-style: none;
 }
 
-.brand{
+.brand {}
 
-}
+.item_name {}
 
-.item_name{
+.price_discount {}
 
-}
+.price {}
 
-.price_discount{
-    
-}
-
-.price{
-
-}
-
-.percentage{
-
-}
-
-.sostenibility{
-
-}
-
-.like{
-
-}
 /* /endregion main */
 
 
 
 /* /region footer */
 
-.footbar{
+.footbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: var(--black);
     align-items: center;
-    height: 100px;
+    height: 120px;
 
 }
 
-.credits{
+.credits {
     text-decoration: none;
     color: var(--white);
     text-align: left;
     margin-bottom: 0.5rem;
 }
 
-.finder{
+.finder {
     text-decoration: none;
     color: var(--white);
     text-align: right;
@@ -162,4 +170,3 @@
 }
 
 /* /endregion footer */
-
