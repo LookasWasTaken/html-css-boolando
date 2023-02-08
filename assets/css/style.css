@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-boolando);
+}
+
+:root {
+    --main-orange: #ff6900;
+    --black: #1a1a1a;
+    --white: #ffffff;
+    --smoke-white: #e9e7e5;
+    --font-boolando: "Helvetica Now", Helvetica, Arial, sans-serif;
+}
+
