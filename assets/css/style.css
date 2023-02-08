@@ -52,7 +52,6 @@
 
 /* /region header */
 
-.outer_container {}
 
 
 .navbar {
@@ -148,7 +147,9 @@
     background-color: var(--white);
 }
 
-.card_details {}
+.like:hover{
+    color: var(--discount-price);
+}
 
 .item_details {
     list-style: none;
