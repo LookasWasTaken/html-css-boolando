@@ -158,6 +158,7 @@
 
 .like:hover {
     color: var(--discount-price);
+    cursor: pointer;
 }
 
 .item_details {
