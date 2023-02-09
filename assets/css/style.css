@@ -52,8 +52,6 @@
 
 /* /region header */
 
-
-
 .navbar {
     display: flex;
     flex-direction: row;
@@ -77,14 +75,11 @@
     width: calc(100 / 3);
 }
 
-.persona_area {
+.personal_area {
     width: calc(100 / 3);
 }
 
-
 /* /endregion header */
-
-
 
 /* /region main */
 
@@ -139,7 +134,6 @@
     z-index: 3;
 }
 
-
 .percentage {
     padding: 0.2rem;
     background-color: var(--discount-price);
@@ -192,8 +186,6 @@
 
 /* /endregion main */
 
-
-
 /* /region footer */
 
 .footbar {
@@ -203,7 +195,6 @@
     background-color: var(--black);
     align-items: center;
     height: 10rem;
-
 }
 
 .credits {
